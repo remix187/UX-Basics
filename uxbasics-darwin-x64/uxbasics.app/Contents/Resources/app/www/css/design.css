@@ -1,0 +1,953 @@
+@charset "utf-8";
+
+* {
+}
+
+body {
+    
+    font-family: 'Nunito Sans', sans-serif;
+    background-color: #FAFAFA;
+    display: block;
+    width: 100%;
+    padding: 0;
+    margin: 0;
+    color: #242424;
+}
+
+
+/*///////////////////////////////*/
+/* FONT SETTINGS                 */
+/*///////////////////////////////*/
+
+h1 {
+    font-weight: 900;
+    font-size: 64px;
+    color: #e67e22;
+;
+}
+
+h2 {
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 145%;
+    margin-top: -30px;
+}
+
+h3 {
+    font-weight: 900;
+    font-size: 24px;
+    line-height: 0;
+    
+}
+
+h4 {
+    font-weight: 800;
+    font-size: 20px;
+    line-height: 145%;
+    margin-bottom: 10px;
+}
+
+p {
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 145%;
+}
+
+
+.all-content {
+    margin-left: 400px;
+    margin-top: 0px;
+}
+
+/*///////////////////////////////*/
+/* MENU                          */
+/*///////////////////////////////*/
+
+
+.navigation {
+    position: fixed;
+    left: 0;
+    display: inline-block;
+    height: 100vh;
+}
+
+.nav-button {
+    display: table;
+    width: 250px;
+    height: 17%;
+    padding: 0;
+    margin-bottom: 0;
+    margin-top: 0;
+}
+
+.navigation a {
+    display: table-cell;
+    text-decoration: none;
+    font-size: 18px;
+    font-weight: 800;
+    text-align: left;
+    padding-left: 100px;
+    vertical-align: middle;
+    color: #fff;
+}
+
+
+.triangle {
+    position: absolute;
+    left: 236px;
+    top: 487px;
+}
+
+
+
+.icon-discover {
+    position: absolute;
+    display: table-cell;
+    margin-left: -70px;
+    margin-top: 56px;
+}
+
+.icon-research {
+    position: absolute;
+    display: table-cell;
+    margin-left: -67px;
+    margin-top: 50px;
+}
+
+.icon-research img {
+    width: 50%;
+    height: auto;
+}
+
+
+.icon-define {
+    position: absolute;
+    display: table-cell;
+    margin-left: -70px;
+    margin-top: 54px;
+}
+
+.icon-design {
+    position: absolute;
+    display: table-cell;
+    margin-left: -70px;
+    margin-top: 55px;
+}
+
+.icon-production {
+    position: absolute;
+    display: table-cell;
+    margin-left: -70px;
+    margin-top: 55px;
+}
+
+.icon-launch {
+    position: absolute;
+    display: table-cell;
+    margin-left: -70px;
+    margin-top: 50px;
+}
+
+
+/* MENU HOVER STYLES */
+
+#discover {
+    background-color: #2ecc71;
+}
+
+#discover:hover {
+    background-color: #27ae60;
+    transition: all 0.2s ease-in;
+}
+
+/* RESEARCH */
+
+#research {
+    background-color: #1abc9c;
+}
+
+#research:hover {
+    background-color: #16a085;
+}
+
+/* DEFINE */
+
+#define {
+    background-color: #f1c40f;
+}
+
+#define:hover {
+    background-color: #f39c12;
+    transition: all 0.2s ease-in;
+}
+
+
+/* DESIGN */
+
+#design {
+    background-color: #e67e22;
+}
+
+#design:hover {
+    background-color: #d35400;
+}
+
+
+/* PRODUCTION */
+
+#production {
+    background-color: #e74c3c;
+}
+
+#production:hover {
+    background-color: #c0392b;
+    transition: all 0.2s ease-in;
+}
+
+
+/* LAUNCH */
+
+#launch {
+    background-color: #9b59b6;
+}
+
+#launch:hover {
+    background-color: #8e44ad;
+}
+
+
+
+/*///////////////////////////////////////////////////*/
+/* RESEARCH                                          */
+/*///////////////////////////////////////////////////*/
+
+.title {
+    padding-top: 50px;
+    width: 70%;
+}
+
+
+
+
+
+
+
+
+/*///////////////////////////////////////////////////*/
+/* STEP 1: SITEMAP                      */
+/*///////////////////////////////////////////////////*/
+
+
+
+.step1 {
+    margin-top: 70px;
+    display: inline-block;
+}
+
+.left {
+    float: left;
+    margin-top: 7.3%;
+    margin-left: -20px;
+}
+
+.right {
+    float: left;
+}
+
+.right a {
+    text-decoration: none;
+    color: #242424;
+}
+
+
+.step1-list {
+    margin-top: 30px;
+    width: 70%;
+}
+
+
+/*///////////////////////////////*/
+/* STEP 1 BUTTON                 */
+/*///////////////////////////////*/
+
+.hidden {
+    position: absolute;
+    left: -9999px;
+    top: -9999px;
+}
+
+.rotate {
+    -moz-transition: all 0.2s linear;
+    -webkit-transition: all 0.2s linear;
+    -ms-transition: all 0.2s linear;
+    -o-transition: all 0.2s linear;
+    transition: all 0.2s linear;
+}
+
+.rotate.down {
+    -moz-transform: rotate(90deg);
+    -webkit-transform: rotate(90deg);
+    transform: rotate(90deg);
+}
+
+
+
+
+
+
+
+
+/*///////////////////////////////////////////////////*/
+/* STEP 2: TREE TESTING                       */
+/*///////////////////////////////////////////////////*/
+
+
+.step2 {
+    margin-top: 30px;
+    display: inline-block;
+}
+
+.left2 {
+    float: left;
+    margin-top: 6.4%;
+    margin-left: -20px;
+}
+
+.right2 {
+    float: left;
+}
+
+.right2 a {
+    text-decoration: none;
+    color: #242424;
+}
+
+
+.step2-list {
+    margin-top: 30px;
+    width: 70%;
+}
+
+/*///////////////////////////////*/
+/* STEP 2 BUTTON                 */
+/*///////////////////////////////*/
+
+.hidden {
+    position: absolute;
+    left: -9999px;
+    top: -9999px;
+}
+
+.rotate2 {
+    -moz-transition: all 0.2s linear;
+    -webkit-transition: all 0.2s linear;
+    -ms-transition: all 0.2s linear;
+    -o-transition: all 0.2s linear;
+    transition: all 0.2s linear;
+}
+
+.rotate2.down2 {
+    -moz-transform: rotate(90deg);
+    -webkit-transform: rotate(90deg);
+    transform: rotate(90deg);
+}
+
+
+
+
+
+
+
+/*///////////////////////////////////////////////////*/
+/* STEP 3: FLOWCHART                                  */
+/*///////////////////////////////////////////////////*/
+
+
+.step3 {
+    margin-top: 30px;
+    display: inline-block;
+}
+
+.left3 {
+    float: left;
+    margin-top: 7%;
+    margin-left: -20px;
+}
+
+.right3 {
+    float: left;
+}
+
+.right3 a {
+    text-decoration: none;
+    color: #242424;
+}
+
+
+.step3-list {
+    margin-top: 30px;
+    width: 70%;
+}
+
+.learnmore {
+    margin-top: 50px;
+    margin-bottom: 80px;
+}
+
+.learnmore a {
+    text-decoration: none;
+    color: #f2972c;
+}
+
+/*///////////////////////////////*/
+/* STEP 3 BUTTON                 */
+/*///////////////////////////////*/
+
+.hidden {
+    position: absolute;
+    left: -9999px;
+    top: -9999px;
+}
+
+.rotate3 {
+    -moz-transition: all 0.2s linear;
+    -webkit-transition: all 0.2s linear;
+    -ms-transition: all 0.2s linear;
+    -o-transition: all 0.2s linear;
+    transition: all 0.2s linear;
+}
+
+.rotate3.down3 {
+    -moz-transform: rotate(90deg);
+    -webkit-transform: rotate(90deg);
+    transform: rotate(90deg);
+}
+
+
+
+
+
+
+/*///////////////////////////////////////////////////*/
+/* STEP 4: MOOD BOARD                       */
+/*///////////////////////////////////////////////////*/
+
+
+.step4 {
+    margin-top: 30px;
+    display: inline-block;
+}
+
+.left4 {
+    float: left;
+    margin-top: 6%;
+    margin-left: -20px;
+}
+
+.right4 {
+    float: left;
+}
+
+.right4 a {
+    text-decoration: none;
+    color: #242424;
+}
+
+
+.step4-list {
+    margin-top: 30px;
+    width: 70%;
+}
+
+.learnmore {
+    margin-top: 50px;
+    margin-bottom: 80px;
+}
+
+.learnmore a {
+    text-decoration: none;
+    color: #f2972c;
+}
+
+/*///////////////////////////////*/
+/* STEP 4 BUTTON                 */
+/*///////////////////////////////*/
+
+.hidden {
+    position: absolute;
+    left: -9999px;
+    top: -9999px;
+}
+
+.rotate4 {
+    -moz-transition: all 0.2s linear;
+    -webkit-transition: all 0.2s linear;
+    -ms-transition: all 0.2s linear;
+    -o-transition: all 0.2s linear;
+    transition: all 0.2s linear;
+}
+
+.rotate4.down4 {
+    -moz-transform: rotate(90deg);
+    -webkit-transform: rotate(90deg);
+    transform: rotate(90deg);
+}
+
+
+
+
+
+
+
+
+/*///////////////////////////////////////////////////*/
+/* STEP 5: SKETCHING                      */
+/*///////////////////////////////////////////////////*/
+
+
+.step5 {
+    margin-top: 30px;
+    display: inline-block;
+}
+
+.left5 {
+    float: left;
+    margin-top: 6.7%;
+    margin-left: -20px;
+}
+
+.right5 {
+    float: left;
+}
+
+.right5 a {
+    text-decoration: none;
+    color: #242424;
+}
+
+
+.step5-list {
+    margin-top: 30px;
+    width: 70%;
+}
+
+/*///////////////////////////////*/
+/* STEP 5 BUTTON                 */
+/*///////////////////////////////*/
+
+.hidden {
+    position: absolute;
+    left: -9999px;
+    top: -9999px;
+}
+
+.rotate5 {
+    -moz-transition: all 0.2s linear;
+    -webkit-transition: all 0.2s linear;
+    -ms-transition: all 0.2s linear;
+    -o-transition: all 0.2s linear;
+    transition: all 0.2s linear;
+}
+
+.rotate5.down5 {
+    -moz-transform: rotate(90deg);
+    -webkit-transform: rotate(90deg);
+    transform: rotate(90deg);
+}
+
+
+
+
+
+
+
+/*///////////////////////////////////////////////////*/
+/* STEP 6: WIREFRAMES                     */
+/*///////////////////////////////////////////////////*/
+
+
+.step6 {
+    margin-top: 30px;
+    display: inline-block;
+}
+
+.left6 {
+    float: left;
+    margin-top: 6.7%;
+    margin-left: -20px;
+}
+
+.right6 {
+    float: left;
+}
+
+.right6 a {
+    text-decoration: none;
+    color: #242424;
+}
+
+
+.step6-list {
+    margin-top: 30px;
+    width: 70%;
+}
+
+/*///////////////////////////////*/
+/* STEP 6 BUTTON                 */
+/*///////////////////////////////*/
+
+.hidden {
+    position: absolute;
+    left: -9999px;
+    top: -9999px;
+}
+
+.rotate6 {
+    -moz-transition: all 0.2s linear;
+    -webkit-transition: all 0.2s linear;
+    -ms-transition: all 0.2s linear;
+    -o-transition: all 0.2s linear;
+    transition: all 0.2s linear;
+}
+
+.rotate6.down6 {
+    -moz-transform: rotate(90deg);
+    -webkit-transform: rotate(90deg);
+    transform: rotate(90deg);
+}
+
+
+
+
+
+
+
+/*///////////////////////////////////////////////////*/
+/* STEP 7: LOW-FIDELITY PROTOTYPING                  */
+/*///////////////////////////////////////////////////*/
+
+
+.step7 {
+    margin-top: 30px;
+    display: inline-block;
+}
+
+.left7 {
+    float: left;
+    margin-top: 3.6%;
+    margin-left: -20px;
+}
+
+.right7 {
+    float: left;
+}
+
+.right7 a {
+    text-decoration: none;
+    color: #242424;
+}
+
+
+.step7-list {
+    margin-top: 30px;
+    width: 70%;
+}
+
+/*///////////////////////////////*/
+/* STEP 7 BUTTON                 */
+/*///////////////////////////////*/
+
+.hidden {
+    position: absolute;
+    left: -9999px;
+    top: -9999px;
+}
+
+.rotate7 {
+    -moz-transition: all 0.2s linear;
+    -webkit-transition: all 0.2s linear;
+    -ms-transition: all 0.2s linear;
+    -o-transition: all 0.2s linear;
+    transition: all 0.2s linear;
+}
+
+.rotate7.down7 {
+    -moz-transform: rotate(90deg);
+    -webkit-transform: rotate(90deg);
+    transform: rotate(90deg);
+}
+
+
+
+
+
+
+/*///////////////////////////////////////////////////*/
+/* STEP 8: LOW-FIDELITY USER TESTING                 */
+/*///////////////////////////////////////////////////*/
+
+
+.step8 {
+    margin-top: 30px;
+    display: inline-block;
+}
+
+.left8 {
+    float: left;
+    margin-top: 3.6%;
+    margin-left: -20px;
+}
+
+.right8 {
+    float: left;
+}
+
+.right8 a {
+    text-decoration: none;
+    color: #242424;
+}
+
+
+.step8-list {
+    margin-top: 30px;
+    width: 70%;
+}
+
+.step8-list a {
+    text-decoration: none;
+    color: #f2972c;
+}
+
+.learnmore {
+    margin-top: 50px;
+    margin-bottom: 80px;
+}
+
+.learnmore a {
+    text-decoration: none;
+    color: #f2972c;
+}
+
+/*///////////////////////////////*/
+/* STEP 8 BUTTON                 */
+/*///////////////////////////////*/
+
+.hidden {
+    position: absolute;
+    left: -9999px;
+    top: -9999px;
+}
+
+.rotate8 {
+    -moz-transition: all 0.2s linear;
+    -webkit-transition: all 0.2s linear;
+    -ms-transition: all 0.2s linear;
+    -o-transition: all 0.2s linear;
+    transition: all 0.2s linear;
+}
+
+.rotate8.down8 {
+    -moz-transform: rotate(90deg);
+    -webkit-transform: rotate(90deg);
+    transform: rotate(90deg);
+}
+
+
+
+
+
+
+
+/*///////////////////////////////////////////////////*/
+/* STEP 9: UNMODERATED                 */
+/*///////////////////////////////////////////////////*/
+
+
+.step9 {
+    margin-top: 30px;
+    display: inline-block;
+}
+
+.left9 {
+    float: left;
+    margin-top: 2.7%;
+    margin-left: -20px;
+}
+
+.right9 {
+    float: left;
+}
+
+.right9 a {
+    text-decoration: none;
+    color: #242424;
+}
+
+
+.step9-list {
+    margin-top: 30px;
+    width: 70%;
+}
+
+.step9-list a {
+    text-decoration: none;
+    color: #f2972c;
+}
+
+/*///////////////////////////////*/
+/* STEP 9 BUTTON                 */
+/*///////////////////////////////*/
+
+.hidden {
+    position: absolute;
+    left: -9999px;
+    top: -9999px;
+}
+
+.rotate9 {
+    -moz-transition: all 0.2s linear;
+    -webkit-transition: all 0.2s linear;
+    -ms-transition: all 0.2s linear;
+    -o-transition: all 0.2s linear;
+    transition: all 0.2s linear;
+}
+
+.rotate9.down9 {
+    -moz-transform: rotate(90deg);
+    -webkit-transform: rotate(90deg);
+    transform: rotate(90deg);
+}
+
+
+
+
+
+
+/*///////////////////////////////////////////////////*/
+/* STEP 10: REVIEW TEST RESULTS                 */
+/*///////////////////////////////////////////////////*/
+
+
+.step10 {
+    margin-top: 30px;
+    display: inline-block;
+}
+
+.left10 {
+    float: left;
+    margin-top: 4%;
+    margin-left: -20px;
+}
+
+.right10 {
+    float: left;
+}
+
+.right10 a {
+    text-decoration: none;
+    color: #242424;
+}
+
+
+.step10-list {
+    margin-top: 30px;
+    width: 70%;
+}
+
+.step10-list a {
+    text-decoration: none;
+    color: #f2972c;
+}
+
+/*///////////////////////////////*/
+/* STEP 10 BUTTON                 */
+/*///////////////////////////////*/
+
+.hidden {
+    position: absolute;
+    left: -9999px;
+    top: -9999px;
+}
+
+.rotate10 {
+    -moz-transition: all 0.2s linear;
+    -webkit-transition: all 0.2s linear;
+    -ms-transition: all 0.2s linear;
+    -o-transition: all 0.2s linear;
+    transition: all 0.2s linear;
+}
+
+.rotate10.down10 {
+    -moz-transform: rotate(90deg);
+    -webkit-transform: rotate(90deg);
+    transform: rotate(90deg);
+}
+
+
+
+
+
+
+
+
+
+/*///////////////////////////////////////////////////*/
+/* STEP 11: A/B TESTING                 */
+/*///////////////////////////////////////////////////*/
+
+
+.step11 {
+    margin-top: 30px;
+    display: inline-block;
+}
+
+.left11 {
+    float: left;
+    margin-top: 5.6%;
+    margin-left: -20px;
+}
+
+.right11 {
+    float: left;
+}
+
+.right11 a {
+    text-decoration: none;
+    color: #242424;
+}
+
+
+.step11-list {
+    margin-top: 30px;
+    width: 70%;
+    margin-bottom: 100px;
+}
+
+.step11-list a {
+    text-decoration: none;
+    color: #f2972c;
+}
+
+/*///////////////////////////////*/
+/* STEP 11 BUTTON                 */
+/*///////////////////////////////*/
+
+.hidden {
+    position: absolute;
+    left: -9999px;
+    top: -9999px;
+}
+
+.rotate11 {
+    -moz-transition: all 0.2s linear;
+    -webkit-transition: all 0.2s linear;
+    -ms-transition: all 0.2s linear;
+    -o-transition: all 0.2s linear;
+    transition: all 0.2s linear;
+}
+
+.rotate11.down11 {
+    -moz-transform: rotate(90deg);
+    -webkit-transform: rotate(90deg);
+    transform: rotate(90deg);
+}

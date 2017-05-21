@@ -1,0 +1,335 @@
+@charset "utf-8";
+
+* {
+}
+
+body {
+    
+    font-family: 'Nunito Sans', sans-serif;
+    background-color: #FAFAFA;
+    display: block;
+    width: 100%;
+    padding: 0;
+    margin: 0;
+    color: #242424;
+}
+
+
+/*///////////////////////////////*/
+/* FONT SETTINGS                 */
+/*///////////////////////////////*/
+
+h1 {
+    font-weight: 900;
+    font-size: 64px;
+    color: #2ecc71;
+}
+
+h2 {
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 145%;
+    margin-top: -30px;
+}
+
+h3 {
+    font-weight: 900;
+    font-size: 24px;
+    line-height: 0;
+    
+}
+
+h4 {
+    font-weight: 800;
+    font-size: 20px;
+    line-height: 145%;
+    margin-bottom: 10px;
+}
+
+p {
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 145%;
+}
+
+
+.all-content {
+    margin-left: 400px;
+    margin-top: 0px;
+}
+
+/*///////////////////////////////*/
+/* MENU                          */
+/*///////////////////////////////*/
+
+
+.navigation {
+    position: fixed;
+    left: 0;
+    display: inline-block;
+    height: 100vh;
+}
+
+.nav-button {
+    display: table;
+    width: 250px;
+    height: 17%;
+    padding: 0;
+    margin-bottom: 0;
+    margin-top: 0;
+}
+
+.navigation a {
+    display: table-cell;
+    text-decoration: none;
+    font-size: 18px;
+    font-weight: 800;
+    text-align: left;
+    padding-left: 100px;
+    vertical-align: middle;
+    color: #fff;
+}
+
+
+.triangle {
+    position: absolute;
+    left: 236px;
+    top: 53px;
+}
+
+
+
+.icon-discover {
+    position: absolute;
+    display: table-cell;
+    margin-left: -70px;
+    margin-top: 56px;
+}
+
+.icon-research {
+    position: absolute;
+    display: table-cell;
+    margin-left: -67px;
+    margin-top: 50px;
+}
+
+.icon-research img {
+    width: 50%;
+    height: auto;
+}
+
+
+.icon-define {
+    position: absolute;
+    display: table-cell;
+    margin-left: -70px;
+    margin-top: 54px;
+}
+
+.icon-design {
+    position: absolute;
+    display: table-cell;
+    margin-left: -70px;
+    margin-top: 55px;
+}
+
+.icon-production {
+    position: absolute;
+    display: table-cell;
+    margin-left: -70px;
+    margin-top: 55px;
+}
+
+.icon-launch {
+    position: absolute;
+    display: table-cell;
+    margin-left: -70px;
+    margin-top: 50px;
+}
+
+/* 
+.menu {
+    list-style-type: none;
+    position: fixed;
+    left: 0;
+    width: 250px;
+    height: 100vh;
+    padding: 0;
+    margin-top:0;
+    margin-bottom: 0;
+}
+
+.menu li {
+    text-align: left;
+    height: 142px;
+    line-height: 142px;
+}
+
+.menu li a {
+    text-decoration: none;
+    font-size: 14px;
+    font-weight: 800;
+    color: #fff;
+    margin-left: 80px;
+}
+
+*/
+
+/* MENU HOVER STYLES */
+
+#discover {
+    background-color: #2ecc71;
+}
+
+#discover:hover {
+    background-color: #27ae60;
+    transition: all 0.2s ease-in;
+}
+
+/* RESEARCH */
+
+#research {
+    background-color: #1abc9c;
+}
+
+#research:hover {
+    background-color: #16a085;
+}
+
+/* DEFINE */
+
+#define {
+    background-color: #f1c40f;
+}
+
+#define:hover {
+    background-color: #f39c12;
+    transition: all 0.2s ease-in;
+}
+
+
+/* DESIGN */
+
+#design {
+    background-color: #e67e22;
+}
+
+#design:hover {
+    background-color: #d35400;
+}
+
+
+/* PRODUCTION */
+
+#production {
+    background-color: #e74c3c;
+}
+
+#production:hover {
+    background-color: #c0392b;
+    transition: all 0.2s ease-in;
+}
+
+
+/* LAUNCH */
+
+#launch {
+    background-color: #9b59b6;
+}
+
+#launch:hover {
+    background-color: #8e44ad;
+}
+
+
+
+/*///////////////////////////////*/
+/* SHOW / HIDE BUTTON            */
+/*///////////////////////////////*/
+
+.hidden {
+    position: absolute;
+    left: -9999px;
+    top: -9999px;
+}
+
+.rotate {
+    -moz-transition: all 0.2s linear;
+    -webkit-transition: all 0.2s linear;
+    -ms-transition: all 0.2s linear;
+    -o-transition: all 0.2s linear;
+    transition: all 0.2s linear;
+}
+
+.rotate.down {
+    -moz-transform: rotate(90deg);
+    -webkit-transform: rotate(90deg);
+    transform: rotate(90deg);
+}
+
+
+/*///////////////////////////////////////////////////*/
+/* VARIOUS STYLING                                   */
+/*///////////////////////////////////////////////////*/
+
+.title {
+    padding-top: 50px;
+}
+
+/*///////////////////////////////*/
+/* CHECKBOX                      */
+/*///////////////////////////////*/
+
+
+
+/*///////////////////////////////*/
+/* PRODUCT DROPDOWN              */
+/*///////////////////////////////*/
+
+.prod {
+    margin-top: 70px;
+    display: inline-block;
+}
+
+.left {
+    float: left;
+    margin-top: 7%;
+    margin-left: -20px;
+}
+
+.right {
+    float: left;
+}
+
+.right a {
+    text-decoration: none;
+    color: #242424;
+}
+
+/*///////////////////////////////*/
+/* PRODUCT QUESTIONS             */
+/*///////////////////////////////*/
+
+.ql1 {
+    margin-top: 30px;
+}
+
+.ql2 {
+    margin-top: 40px;
+}
+
+/*///////////////////////////////*/
+/* LEARN MORE                    */
+/*///////////////////////////////*/
+
+.learnmore {
+    margin-top: 50px;
+    margin-bottom: 80px;
+}
+
+.learnmore a {
+    text-decoration: none;
+    color: #f2972c;
+}
+
+
