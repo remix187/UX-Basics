@@ -12,11 +12,10 @@ function createWindow(){
         height: 850,
         minWidth: 1000,
         minHeight: 700,
-        resizable: false,
     })
 
     
-    win.loadURL('file://'+ __dirname +'/www/1_discover.html');
+    win.loadURL('file://'+ __dirname +'/www/index.html');
     
     win.on('closed', quitApp);
 }
