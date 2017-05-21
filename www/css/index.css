@@ -24,14 +24,8 @@ body {
 
 
 
-.home {
-	opacity: 1;
-	transition: ease-in-out 0.5s all;
-}
-
 .hidden {
 	display: none;
-	transition: ease-in-out 0.3s all;
 }
 
 .pointer {
@@ -98,6 +92,10 @@ p {
 
 .green {
 	color: #2BC3A6;
+}
+
+.yellow {
+	color: #F0C830;
 }
 
 .textbox {
@@ -190,6 +188,25 @@ p {
 }
 
 .arrowprev3:hover {
+	transform: scale(1.2);
+	transition: ease-in 0.1s all;
+}
+
+
+
+/*/////////////////////////////////////
+///// ARROWS PAGE 4
+/////////////////////////////////////*/
+
+.arrowprev4 {
+	position: fixed;
+	top: 50%;
+	left: 2%;
+	transform: scale(1);
+	transition: ease-in 0.1s all;
+}
+
+.arrowprev4:hover {
 	transform: scale(1.2);
 	transition: ease-in 0.1s all;
 }
