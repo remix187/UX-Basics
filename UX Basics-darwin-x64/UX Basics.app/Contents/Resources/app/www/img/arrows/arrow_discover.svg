@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="11px" height="20px" viewBox="0 0 11 20" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 44 (41411) - http://www.bohemiancoding.com/sketch -->
+    <title>Chevron</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Chapter-Design" transform="translate(-283.000000, -15.000000)" fill-rule="nonzero" fill="#3ED17F">
+            <path d="M283.450203,31.8488626 C282.820991,32.5207002 282.855546,33.5754093 283.527383,34.2046212 C284.199221,34.8338331 285.25393,34.7992782 285.883142,34.1274406 L292.992265,26.5367135 C293.892627,25.5753566 293.892663,24.0803352 292.992347,23.1189348 L285.883197,15.5274421 C285.254018,14.8555741 284.19931,14.8209681 283.527442,15.4501475 C282.855574,16.079327 282.820968,17.1340343 283.450148,17.8059024 L290.025849,24.8277524 L283.450203,31.8488626 Z" id="Chevron"></path>
+        </g>
+    </g>
+</svg>
