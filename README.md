@@ -1,5 +1,4 @@
 # UX-Basics
-Basic UX Process App Covering Fundamentals for Smaller Projects
+UX Process App Covering The Basic Fundamental Steps For Smaller Projects
 
-
-![alt text](http://i.imgur.com/OankN27.png)
+![alt text](http://i.imgur.com/CtQHmEj.png)
