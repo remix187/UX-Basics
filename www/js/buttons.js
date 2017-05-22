@@ -2,23 +2,52 @@
 ******* Show / hide step content
 *****************************************************/
 
-var stepList = document.querySelectorAll('.step');
+var stepList = document.querySelectorAll('.step .title');
+
 
 for (var i = 0; i < stepList.length; i++) {
 
-	var step = stepList[i];
+	var stepTitle = stepList[i];
+	
+	stepTitle.addEventListener('mousedown', function (event) {
+			
+			var step = this.parentElement;
+			
+			var stepContent = step.querySelector('.content');
+			stepContent.classList.toggle("hidden");
 
-	step.addEventListener('mousedown', function (event) {
-
-		var stepContent = this.querySelector('.content');
-		stepContent.classList.toggle("hidden");
-		
-
-		var stepArrowImage = this.querySelector('.arrow img');
-		stepArrowImage.classList.toggle("down");
-
+			var stepArrowImage = step.querySelector('.arrow img');
+			stepArrowImage.classList.toggle("down");
 	});
 };
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 /****************************************************
