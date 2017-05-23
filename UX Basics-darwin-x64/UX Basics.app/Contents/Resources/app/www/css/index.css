@@ -77,8 +77,8 @@ body {
 
 .logo {
 	position: relative;
-	margin-top: 100px;
-	transform:  scale(1);
+	margin-top: 140px;
+	transform:  scale(0.7);
 	transition: ease-in-out 0.1s all;
 }
 
