@@ -1,13 +1,17 @@
+body {
+	-webkit-app-region: drag;
+}
+
 /*///////////////////////////////*/
 /* MENU                          */
 /*///////////////////////////////*/
-
 
 .navigation {
     position: fixed;
     left: 0;
     display: inline-block;
     height: 100vh;
+	-webkit-app-region: no-drag;
 }
 
 .nav-button {
@@ -43,35 +47,35 @@
 .triangle2 {
     position: absolute;
     left: 270px;
-    top: 190px;
+    top: 196px;
 		transition: all ease-out 0.3s;
 }
 
 .triangle3 {
     position: absolute;
     left: 270px;
-    top: 332px;
+    top: 340px;
 		transition: all ease-out 0.3s;
 }
 
 .triangle4 {
     position: absolute;
     left: 270px;
-    top: 474px;
+    top: 484px;
 		transition: all ease-out 0.3s;
 }
 
 .triangle5 {
     position: absolute;
     left: 270px;
-    top: 610px;
+    top: 628px;
 		transition: all ease-out 0.3s;
 }
 
 .triangle6 {
     position: absolute;
-    left: 270px;
-    top: 750px;
+    left: 274px;
+    top: 772px;
 	transition: all ease-out 0.3s;
 }
 
