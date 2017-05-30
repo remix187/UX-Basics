@@ -1,0 +1,281 @@
+@charset "utf-8";
+
+* {
+	box-sizing: border-box;
+}
+
+html {
+	height: 100%;
+	background: #FAFAFA;
+	background-size: cover;
+}
+
+body {
+    height: 100%;
+    font-family: 'Nunito Sans', sans-serif;
+    /* background-color: #FAFAFA; /* #FAFAFA */
+    display: block;
+    width: 100%;
+    padding: 0;
+    margin: 0;
+    color: #2c3e50; /* #2c3e50 #242424 */
+}
+
+
+/* WATERMARK */
+
+.watermark {
+	position: fixed;
+	top: 95%;
+	right: 2%;
+}
+
+.iconColor {
+	position: absolute;
+	top: 5%;
+	right: 2%;
+}
+
+/*******************************************************/
+/* Chapter Styling */
+/*******************************************************/
+
+.chapter1 {
+	margin-left: 400px;
+}
+
+.chapter1 h1 {
+	color: #2ecc71;
+}
+
+.chapter2 {
+	margin-left: 400px;
+}
+
+.chapter2 h1 {
+	color: #1abc9c;
+}
+
+.chapter3 {
+	margin-left: 400px;
+}
+
+.chapter3 h1 {
+	color: #f1c40f;
+}
+
+.chapter4 {
+	margin-left: 400px;
+}
+
+.chapter4 h1 {
+	color: #e67e22;
+}
+
+.chapter5 {
+	margin-left: 400px;
+}
+
+.chapter5 h1 {
+	
+	color: #e74c3c;
+}
+
+
+.chapter6 {
+	margin-left: 400px;
+}
+
+.chapter6 h1 {
+	
+	color: #9b59b6;
+}
+
+
+/*******************************************************/
+/* Header Style */
+/*******************************************************/
+
+.header {
+    padding-top: 50px;
+    width: 75%;
+}
+
+/*******************************************************/
+/* Title Styling */
+/*******************************************************/
+
+.title {
+	display: flex;
+	padding: 0;
+	margin: 0;
+	height: 40px;
+	margin-top: 20px;
+}
+
+.pointer {
+    cursor: pointer;
+}
+
+.arrow {
+	position: relative;
+	margin-left: -20px;
+	height: 17px;
+	width: 11px;
+	top: 14px;
+	-webkit-app-region: no-drag;
+	user-select: none;
+}
+
+.arrow img {
+	position: relative;
+	float: left;
+}
+
+.arrow2 {
+	position: relative;
+	margin-left: -20px;
+	height: 17px;
+	width: 11px;
+	top: 39px;
+}
+
+.arrow2 img {
+	position: relative;
+	float: left;
+}
+
+.text {
+	position: relative;
+	padding: 0;
+	-webkit-app-region: no-drag;
+	user-select: none;
+}
+
+.text h3 {
+	position: relative;
+	text-align: left;
+	margin-left: 10px;
+}
+
+/*******************************************************/
+/* Arrow Animation */
+/*******************************************************/
+
+.rotate {
+    -moz-transition: all 0.2s linear;
+    -webkit-transition: all 0.2s linear;
+    -ms-transition: all 0.2s linear;
+    -o-transition: all 0.2s linear;
+    transition: all 0.2s linear;
+}
+
+.rotate.down {
+    -moz-transform: rotate(90deg);
+    -webkit-transform: rotate(90deg);
+    transform: rotate(90deg);
+}
+
+/*******************************************************/
+/* Content Styles */
+/*******************************************************/
+
+.hidden {
+    position: absolute;
+	display: none;
+/*
+    left: -9999px;
+    top: -9999px;
+*/
+/*
+	
+	opacity: 0;
+	transition: opacity 0.3s linear;
+*/
+}
+
+.show {
+	opacity: 1;
+	transition: opacity 0.3s linear;
+}
+
+
+
+.step-list {
+    margin-top: 60px;
+    width: 70%;
+	-webkit-app-region: no-drag;
+}
+
+.step-last {
+	margin-top: 60px;
+	margin-bottom: 70px;
+	width: 70%;
+	-webkit-app-region: no-drag;
+}
+
+.bottom {
+	margin-bottom: 120px;
+}
+
+/*******************************************************/
+/* Link Styles */
+/*******************************************************/
+
+a {
+	text-decoration: none;
+	color: #f2972c;
+}
+
+
+
+/*******************************************************/
+/* Other */
+/*******************************************************/
+
+.comingUp h3 {
+	margin-top: 420px;
+	font-size: 16px;
+	width: 300px;
+	color: #3ED17F;
+	font-weight: 300;
+	letter-spacing: 1px;
+}
+
+.comingUp2 h3 {
+	margin-top: 210px;
+	font-size: 16px;
+	width: 300px;
+	color: #f1c40f;
+	font-weight: 300;
+	letter-spacing: 1px;
+}
+
+.comingUp3 h3 {
+	margin-top: 120px;
+	font-size: 16px;
+	width: 300px;
+	color: #E28633;
+	font-weight: 300;
+	letter-spacing: 1px;
+}
+
+.comingUp4 h3 {
+	margin-bottom: 40px;
+	font-size: 16px;
+	width: 300px;
+	color: #E55749;
+	font-weight: 300;
+	letter-spacing: 1px;
+}
+
+.comingUp5 h3 {
+	margin-bottom: 40px;
+	font-size: 16px;
+	width: 300px;
+	color: #9E63B5;
+	font-weight: 300;
+	letter-spacing: 1px;
+}
+
+

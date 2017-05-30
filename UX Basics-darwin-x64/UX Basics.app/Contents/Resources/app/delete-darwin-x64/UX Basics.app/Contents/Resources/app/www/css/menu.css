@@ -1,0 +1,206 @@
+body {
+	-webkit-app-region: drag;
+}
+
+/*///////////////////////////////*/
+/* MENU                          */
+/*///////////////////////////////*/
+
+.navigation {
+    position: fixed;
+    left: 0;
+    display: inline-block;
+    height: 100vh;
+	-webkit-app-region: no-drag;
+}
+
+.nav-button {
+    display: table;
+    width: 250px;
+    height: 17%;
+    padding: 0;
+    margin-bottom: 0;
+    margin-top: 0;
+}
+
+
+
+.navigation a {
+    display: table-cell;
+    text-decoration: none;
+    font-size: 18px;
+    font-weight: 800;
+    text-align: left;
+    padding-left: 100px;
+    vertical-align: middle;
+    color: #fff;
+}
+
+
+.triangle1 {
+    position: absolute;
+    left: 270px;
+    top: 52px;
+		transition: all ease-out 0.3s;
+}
+
+.triangle2 {
+    position: absolute;
+    left: 270px;
+    top: 196px;
+		transition: all ease-out 0.3s;
+}
+
+.triangle3 {
+    position: absolute;
+    left: 270px;
+    top: 340px;
+		transition: all ease-out 0.3s;
+}
+
+.triangle4 {
+    position: absolute;
+    left: 270px;
+    top: 484px;
+		transition: all ease-out 0.3s;
+}
+
+.triangle5 {
+    position: absolute;
+    left: 270px;
+    top: 628px;
+		transition: all ease-out 0.3s;
+}
+
+.triangle6 {
+    position: absolute;
+    left: 274px;
+    top: 772px;
+	transition: all ease-out 0.3s;
+}
+
+
+.triangleMove {
+	transform: translateX(-35px);
+	transition: all ease-in 0.3s;
+}
+
+
+.icon-discover {
+	position: absolute;
+	display: table-cell;
+	margin-left: -70px;
+	margin-top: -5px;
+}
+
+.icon-research {
+    position: absolute;
+    display: table-cell;
+	margin-left: -70px;
+	margin-top: -14px;
+}
+
+.icon-research img {
+    width: 50%;
+    height: auto;
+}
+
+
+.icon-define {
+	position: absolute;
+	display: table-cell;
+	margin-left: -70px;
+	margin-top: -5px;
+}
+
+.icon-design {
+	position: absolute;
+	display: table-cell;
+	margin-left: -70px;
+	margin-top: -5px;
+}
+
+.icon-production {
+    position: absolute;
+    display: table-cell;
+	margin-left: -70px;
+	margin-top: -5px;
+}
+
+.icon-launch {
+    position: absolute;
+    display: table-cell;
+	margin-left: -70px;
+	margin-top: -5px;
+}
+
+
+/* MENU HOVER STYLES */
+
+#discover {
+	background-color: #2ecc71;
+	transition: all 0.2s ease-in;
+}
+
+#discover:hover {
+	background-color: #26c168;
+	transition: all 0.2s ease-in;
+}
+
+/* RESEARCH */
+
+#research {
+    background-color: #1abc9c;
+}
+
+#research:hover {
+	background-color: #17b797;
+	transition: all 0.2s ease-in;
+}
+
+/* DEFINE */
+
+#define {
+    background-color: #f1c40f;
+}
+
+#define:hover {
+	background-color: #deb510;
+	transition: all 0.2s ease-in;
+}
+
+
+/* DESIGN */
+
+#design {
+    background-color: #e67e22;
+}
+
+#design:hover {
+	background-color: #dd7a22;
+	transition: all 0.2s ease-in;
+}
+
+
+/* PRODUCTION */
+
+#production {
+    background-color: #e74c3c;
+}
+
+#production:hover {
+	background-color: #de3f2f;
+	transition: all 0.2s ease-in;
+}
+
+
+/* LAUNCH */
+
+#launch {
+    background-color: #9b59b6;
+}
+
+#launch:hover {
+	background-color: #9653b2;
+	transition: all 0.2s ease-in;
+}
